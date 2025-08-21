@@ -7,6 +7,7 @@ I’ve had this idea for a while. It’s nothing original, but it’s a good pro
 - Admin User for adding posts;
 - Admin dashboard for posts add/edit/delete;
 - Admin authentication;
+- Markdown formatting on blogposts;
 
 ## Tech Stack
 
