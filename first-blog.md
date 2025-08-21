@@ -12,20 +12,21 @@ Created a .env file and now thinkig about testing if it works properly. I've ins
 
 According to the NestJS Documentation, there is a recipe for prisma, I'll use it later on (https://docs.nestjs.com/recipes/prisma). I've set up Prisma by first installing the dependency:
 
-``bash
+```bash
 npm install prisma --save-dev
-``
+```
 Afterwards setting it up for the project with:
 
-``bash
+```bash
 npx prisma init
-``
+```
 
 For the passport setup I've just installed the deps with:
 
-``bash
+```bash
 $ npm install --save @nestjs/passport passport passport-local
 $ npm install --save-dev @types/passport-local
-``
+```
 
-No point in doing any further setup until choosing the strategy to go about it. That's it for day 1, for day 2 I hope I'll do more implementing, need to think the development strategy through.
+
+No point in doing any further setup until choosing the strategy to go about it, used the documentation for the setup (https://docs.nestjs.com/recipes/prisma#set-up-prisma). That's it for day 1, for day 2 I hope I'll do more implementing, need to think the development strategy through.
